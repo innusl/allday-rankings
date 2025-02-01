@@ -11,16 +11,15 @@ body {
     color: #333;
     display: flex;
     flex-direction: column; /* Stack content and footer */
-    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 header {
-    background-image: url('/allday-rankings/images/kart-logo.png');
-    background-size: cover; /* Make sure the image covers the entire header */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    height: 300px; /* Adjust height based on your design preference */
-    color: white;
+    background-image: url('kart-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; /* Adjust based on your design preference */
+    position: relative; /* Needed for overlay */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,12 +28,38 @@ header {
     padding: 20px;
 }
 
-header h1, header p {
-    margin: 0;
+/* Add a semi-transparent overlay to improve text visibility */
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Darken the background */
+    z-index: 1; /* Place the overlay below text */
 }
 
-header .logo {
-    display: none; /* Remove the logo from the header if it's no longer needed */
+header h1, header p {
+    margin: 0;
+    color: white; /* Make the text white for better contrast */
+    z-index: 2; /* Ensure text is on top of the overlay */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Add subtle text shadow */
+}
+
+/* Optional: Increase font size for better readability */
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Placeholder for dynamic menu content */
+#menu-placeholder {
+    margin-top: 20px;
 }
 
 nav ul {
