@@ -79,58 +79,62 @@
 	        });
 	</script>
 	
-    <script>
-        // Fetch the parents challenge data
-        fetch('../../../data/hs-stellenberg-vs-durbanville-parents.json')
-            .then(response => response.json())
-            .then(data => {
-                const tableBody = document.querySelector('#rankingTable tbody');
+	<script>
+	    // Fetch the parents challenge data
+	    fetch('../../../data/hs-stellenberg-vs-durbanville-parents.json')
+	        .then(response => response.json())
+	        .then(data => {
+	            const tableBody = document.querySelector('#rankingTable tbody');
 
-                // Function to render filtered data
-                function renderTable(filteredData) {
-                    tableBody.innerHTML = ''; // Clear existing rows
-                    filteredData.forEach((driver, index) => {
-                        const row = document.createElement('tr');
-                        row.innerHTML = `
-                            <td>${index + 1}</td> <!-- Dynamically assigned rank -->
-                            <td>${driver.driverName}</td>
-							<td>${driver.school}</td>
-                            <td>${driver.gender}</td>
-							<td>${driver.bestLapTime}</td>
-                        `;
-                        tableBody.appendChild(row);
-                    });
-                }
+	            // Sort data by lap time (best lap time is the lowest number)
+	            data.sort((a, b) => parseFloat(a.bestLapTime) - parseFloat(b.bestLapTime));
 
-                // Initially render all data
-                renderTable(data);
+	            // Function to render filtered data
+	            function renderTable(filteredData) {
+	                tableBody.innerHTML = ''; // Clear existing rows
+	                filteredData.forEach((driver, index) => {
+	                    const row = document.createElement('tr');
+	                    row.innerHTML = `
+	                        <td>${index + 1}</td> <!-- Dynamically assigned rank -->
+	                        <td>${driver.driverName}</td>
+	                        <td>${driver.school}</td>
+	                        <td>${driver.gender}</td>
+	                        <td>${driver.bestLapTime}</td>
+	                    `;
+	                    tableBody.appendChild(row);
+	                });
+	            }
 
-                // Add filter event listeners
-                document.getElementById('genderFilter').addEventListener('change', applyFilters);
-                document.getElementById('schoolFilter').addEventListener('change', applyFilters);
-                document.getElementById('ageGroupFilter').addEventListener('change', applyFilters);
+	            // Initially render all data, now sorted by best lap time
+	            renderTable(data);
 
-                function applyFilters() {
-                    const genderFilter = document.getElementById('genderFilter').value;
-                    const schoolFilter = document.getElementById('schoolFilter').value;
-                    const ageGroupFilter = document.getElementById('ageGroupFilter').value;
+	            // Add filter event listeners
+	            document.getElementById('genderFilter').addEventListener('change', applyFilters);
+	            document.getElementById('schoolFilter').addEventListener('change', applyFilters);
+	            document.getElementById('ageGroupFilter').addEventListener('change', applyFilters);
 
-                    const filteredData = data.filter(driver => {
-                        return (
-                            (genderFilter === '' || driver.gender === genderFilter) &&
-                            (schoolFilter === '' || driver.school === schoolFilter) &&
-                            (ageGroupFilter === '' || driver.ageGroup === ageGroupFilter)
-                        );
-                    });
+	            function applyFilters() {
+	                const genderFilter = document.getElementById('genderFilter').value;
+	                const schoolFilter = document.getElementById('schoolFilter').value;
+	                const ageGroupFilter = document.getElementById('ageGroupFilter').value;
 
-                    // Sort filtered data by lap time
-                    filteredData.sort((a, b) => parseFloat(a.bestLapTime) - parseFloat(b.bestLapTime));
+	                const filteredData = data.filter(driver => {
+	                    return (
+	                        (genderFilter === '' || driver.gender === genderFilter) &&
+	                        (schoolFilter === '' || driver.school === schoolFilter) &&
+	                        (ageGroupFilter === '' || driver.ageGroup === ageGroupFilter)
+	                    );
+	                });
 
-                    // Render the filtered table
-                    renderTable(filteredData);
-                }
-            })
-            .catch(error => console.error('Error loading the parents data:', error));
-    </script>
+	                // Sort filtered data by lap time
+	                filteredData.sort((a, b) => parseFloat(a.bestLapTime) - parseFloat(b.bestLapTime));
+
+	                // Render the filtered table
+	                renderTable(filteredData);
+	            }
+	        })
+	        .catch(error => console.error('Error loading the parents data:', error));
+	</script>
+
 </body>
 </html>
