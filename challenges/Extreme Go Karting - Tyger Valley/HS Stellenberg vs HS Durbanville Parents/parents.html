@@ -9,18 +9,46 @@
 <body>
     <header>
         <h1>HS Stellenberg vs HS Durbanville - Parents Rankings</h1>
-		<div id="menu-placeholder"></div>	
+        <div id="menu-placeholder"></div>    
     </header>
 
-	
     <section>
         <h2>Rankings</h2>
+
+        <!-- Filters -->
+        <div id="filters">
+            <label for="genderFilter">Gender:</label>
+            <select id="genderFilter">
+                <option value="">All</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+
+            <label for="schoolFilter">School:</label>
+            <select id="schoolFilter">
+                <option value="">All</option>
+                <option value="HS Stellenberg">HS Stellenberg</option>
+                <option value="HS Durbanville">HS Durbanville</option>
+            </select>
+
+            <label for="ageGroupFilter">Age Group:</label>
+            <select id="ageGroupFilter">
+                <option value="">All</option>
+                <option value="u15">U15</option>
+                <option value="u19">U19</option>
+            </select>
+        </div>
+
+        <!-- Table -->
         <table id="rankingTable">
             <thead>
                 <tr>
                     <th>Rank</th>
                     <th>Driver Name</th>
                     <th>Best Lap Time</th>
+                    <th>Gender</th>
+                    <th>School</th>
+                    <th>Age Group</th>
                 </tr>
             </thead>
             <tbody>
@@ -33,31 +61,78 @@
         <p>Created by Karting Rankings Team</p>
     </footer>
 
+	<script>
+	    //fetch menu
+	    fetch('../../../menu.html')
+	        .then(response => {
+	            if (!response.ok) {
+	                throw new Error('Menu file not found');
+	            }
+	            return response.text();
+	        })
+	        .then(data => {
+	            document.getElementById('menu-placeholder').innerHTML = data;
+	        })
+	        .catch(error => {
+	            console.error('Error loading the menu:', error);
+	            // Optionally, you can provide a fallback or error message here
+	            document.getElementById('menu-placeholder').innerHTML = '<p>Menu could not be loaded.</p>';
+	        });
+	</script>
+	
     <script>
-		//fetch menu
-		fetch('../../../menu.html')
-		    .then(response => response.text())
-		    .then(data => {
-		        document.getElementById('menu-placeholder').innerHTML = data;
-		    });
-		
-        // Fetch the parent challenge data
+        // Fetch the parents challenge data
         fetch('../../../data/hs-stellenberg-vs-durbanville-parents.json')
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.querySelector('#rankingTable tbody');
-                data.sort((a, b) => a.rank - b.rank); // Sort by rank
-                data.forEach(driver => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td>${driver.rank}</td>
-                        <td>${driver.driverName}</td>
-                        <td>${driver.bestLapTime}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
+
+                // Function to render filtered data
+                function renderTable(filteredData) {
+                    tableBody.innerHTML = ''; // Clear existing rows
+                    filteredData.forEach((driver, index) => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${index + 1}</td> <!-- Dynamically assigned rank -->
+                            <td>${driver.driverName}</td>
+							<td>${driver.school}</td>
+							<td>${driver.ageGroup}</td>
+                            <td>${driver.gender}</td>
+							<td>${driver.bestLapTime}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                }
+
+                // Initially render all data
+                renderTable(data);
+
+                // Add filter event listeners
+                document.getElementById('genderFilter').addEventListener('change', applyFilters);
+                document.getElementById('schoolFilter').addEventListener('change', applyFilters);
+                document.getElementById('ageGroupFilter').addEventListener('change', applyFilters);
+
+                function applyFilters() {
+                    const genderFilter = document.getElementById('genderFilter').value;
+                    const schoolFilter = document.getElementById('schoolFilter').value;
+                    const ageGroupFilter = document.getElementById('ageGroupFilter').value;
+
+                    const filteredData = data.filter(driver => {
+                        return (
+                            (genderFilter === '' || driver.gender === genderFilter) &&
+                            (schoolFilter === '' || driver.school === schoolFilter) &&
+                            (ageGroupFilter === '' || driver.ageGroup === ageGroupFilter)
+                        );
+                    });
+
+                    // Sort filtered data by lap time
+                    filteredData.sort((a, b) => parseFloat(a.bestLapTime) - parseFloat(b.bestLapTime));
+
+                    // Render the filtered table
+                    renderTable(filteredData);
+                }
             })
-            .catch(error => console.error('Error loading the parent data:', error));
+            .catch(error => console.error('Error loading the parents data:', error));
     </script>
 </body>
 </html>
