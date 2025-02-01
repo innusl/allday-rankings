@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>HS Stellenberg vs HS Durbanville - Students Rankings</h1>
-		<div id="menu-placeholder"></div>	
+        <div id="menu-placeholder"></div>    
     </header>
 
     <section>
@@ -20,6 +20,9 @@
                     <th>Rank</th>
                     <th>Driver Name</th>
                     <th>Best Lap Time</th>
+                    <th>Gender</th>
+                    <th>School</th>
+                    <th>Age Group</th>
                 </tr>
             </thead>
             <tbody>
@@ -33,25 +36,29 @@
     </footer>
 
     <script>
-		//fetch menu
-		fetch('../../../menu.html')
-		    .then(response => response.text())
-		    .then(data => {
-		        document.getElementById('menu-placeholder').innerHTML = data;
-		    });
-		
+        //fetch menu
+        fetch('../../../menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu-placeholder').innerHTML = data;
+            });
+        
         // Fetch the student challenge data
         fetch('../../../data/hs-stellenberg-vs-durbanville-students.json')
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.querySelector('#rankingTable tbody');
-                data.sort((a, b) => a.rank - b.rank); // Sort by rank
-                data.forEach(driver => {
+                data.sort((a, b) => parseFloat(a.bestLapTime) - parseFloat(b.bestLapTime)); // Sort by best lap time (best to worst)
+                
+                data.forEach((driver, index) => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${driver.rank}</td>
+                        <td>${index + 1}</td> <!-- Dynamically assigned rank -->
                         <td>${driver.driverName}</td>
                         <td>${driver.bestLapTime}</td>
+                        <td>${driver.gender}</td>
+                        <td>${driver.school}</td>
+                        <td>${driver.ageGroup}</td>
                     `;
                     tableBody.appendChild(row);
                 });

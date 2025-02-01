@@ -1,53 +1,72 @@
 [
     {
-        "rank": 1,
         "driverName": "John Doe",
-        "bestLapTime": "18.347"
+        "bestLapTime": "18.347",
+        "gender": "m",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
     },
     {
-        "rank": 2,
         "driverName": "Jane Smith",
-        "bestLapTime": "18.022"
+        "bestLapTime": "18.022",
+        "gender": "f",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
     },
     {
-        "rank": 3,
         "driverName": "Liam Johnson",
-        "bestLapTime": "18.112"
+        "bestLapTime": "18.112",
+        "gender": "m",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
     },
     {
-        "rank": 4,
         "driverName": "Emma Williams",
-        "bestLapTime": "18.008"
+        "bestLapTime": "18.008",
+        "gender": "f",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
     },
     {
-        "rank": 5,
         "driverName": "Noah Brown",
-        "bestLapTime": "18.435"
+        "bestLapTime": "18.435",
+        "gender": "m",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
     },
     {
-        "rank": 6,
         "driverName": "Olivia Jones",
-        "bestLapTime": "18.123"
+        "bestLapTime": "18.123",
+        "gender": "f",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
     },
     {
-        "rank": 7,
         "driverName": "Mason Davis",
-        "bestLapTime": "18.221"
+        "bestLapTime": "18.221",
+        "gender": "m",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
     },
     {
-        "rank": 8,
         "driverName": "Sophia Miller",
-        "bestLapTime": "18.678"
+        "bestLapTime": "18.678",
+        "gender": "f",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
     },
     {
-        "rank": 9,
         "driverName": "James Garcia",
-        "bestLapTime": "18.456"
+        "bestLapTime": "18.456",
+        "gender": "m",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
     },
     {
-        "rank": 10,
         "driverName": "Isabella Martinez",
-        "bestLapTime": "18.789"
+        "bestLapTime": "18.789",
+        "gender": "f",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
     }
 ]
-
