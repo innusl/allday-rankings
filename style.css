@@ -170,6 +170,11 @@ nav ul li .dropdown-menu .dropdown-menu {
         display: block; /* Show dropdown menu */
     }
 
+    /* Nested dropdowns */
+    nav ul li .dropdown-menu .dropdown.active > .dropdown-menu {
+        display: block;
+    }
+
     footer {
         padding: 10px;
         font-size: 0.9em; /* Adjust footer text for smaller screens */

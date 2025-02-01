@@ -48,5 +48,18 @@
                 document.getElementById('menu-placeholder').innerHTML = data;
             });
     </script>
+	<script>
+	    // Toggle dropdown on mobile when menu item is clicked
+	    document.querySelectorAll('nav ul li').forEach(function(item) {
+	        item.addEventListener('click', function(event) {
+	            // Toggle active class to show/hide the dropdown
+	            if (item.classList.contains('dropdown')) {
+	                item.classList.toggle('active');
+	                // Prevent clicking on the link itself from navigating
+	                event.preventDefault();
+	            }
+	        });
+	    });
+	</script>
 </body>
 </html>
