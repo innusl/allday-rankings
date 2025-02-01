@@ -158,20 +158,16 @@ nav ul li .dropdown-menu .dropdown-menu {
     nav ul li .dropdown-menu {
         position: static;
         width: 100%;
+        display: none; /* Hide the dropdown menu initially */
     }
 
     nav ul li .dropdown-menu li a {
         padding: 10px;
     }
 
-    table {
-        width: 100%;
-        overflow-x: auto;
-        display: block; /* Make the table scrollable on small screens */
-    }
-
-    th, td {
-        white-space: nowrap; /* Prevent text from wrapping */
+    /* Toggle the visibility of dropdown on click */
+    nav ul li.active .dropdown-menu {
+        display: block; /* Show dropdown menu */
     }
 
     footer {
