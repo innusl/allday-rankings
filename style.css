@@ -1,49 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    background: #333;
+    text-align: center;
 }
 
 nav ul li {
+    display: inline-block;
     position: relative;
+    margin: 0 10px;
 }
 
 nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
     display: block;
-    padding: 10px 20px;
+}
+
+/* Dropdown menu styles */
+nav ul li .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+nav ul li .dropdown-menu li {
+    display: block;
+    margin: 0;
+}
+
+nav ul li .dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
     color: white;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    background: #444;
+nav ul li .dropdown-menu li a:hover {
+    background-color: #002244;
 }
 
-/* Dropdown Menu */
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #444;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    min-width: 200px;
+/* Show dropdown on hover */
+nav ul li:hover .dropdown-menu {
+    display: block;
 }
 
-.dropdown-menu li {
+section {
+    padding: 20px;
+}
+
+table {
     width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
 }
 
-.dropdown-menu li a {
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+footer {
+    text-align: center;
     padding: 10px;
-    display: block;
-}
-
-/* Show dropdown when hovering */
-.dropdown:hover .dropdown-menu {
-    display: block;
+    background-color: #003366;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
