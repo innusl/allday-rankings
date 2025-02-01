@@ -9,9 +9,9 @@
 <body>
     <header>
         <h1>HS Stellenberg vs HS Durbanville - Parents Rankings</h1>
+		<div id="menu-placeholder"></div>	
     </header>
 
-	<div id="menu-placeholder"></div>	
 	
     <section>
         <h2>Rankings</h2>
@@ -35,7 +35,7 @@
 
     <script>
 		//fetch menu
-		fetch('menu.html')
+		fetch('../../../menu.html')
 		    .then(response => response.text())
 		    .then(data => {
 		        document.getElementById('menu-placeholder').innerHTML = data;
