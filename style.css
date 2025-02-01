@@ -1,9 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
+    display: flex;
+    flex-direction: column; /* Stack content and footer */
 }
 
 header {
@@ -88,6 +95,7 @@ nav ul li a:hover {
 
 section {
     padding: 20px;
+    flex-grow: 1; /* Allow the section to grow and take remaining space */
 }
 
 table {
@@ -116,7 +124,7 @@ footer {
     padding: 10px;
     background-color: #003366;
     color: white;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
+    margin-top: 20px; /* Add space between content and footer */
 }
