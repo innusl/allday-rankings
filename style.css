@@ -15,10 +15,26 @@ body {
 }
 
 header {
-    background-color: #003366;
+    background-image: url('/allday-rankings/images/kart-logo.png');
+    background-size: cover; /* Make sure the image covers the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 300px; /* Adjust height based on your design preference */
     color: white;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 20px;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+header .logo {
+    display: none; /* Remove the logo from the header if it's no longer needed */
 }
 
 nav ul {
