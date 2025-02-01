@@ -1,60 +1,25 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Ensure the body and html take full height */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
 }
 
-/* Body and layout */
 body {
-    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     color: #333;
     display: flex;
     flex-direction: column; /* Stack content and footer */
 }
 
-/* Header */
 header {
-    background-color: #ff6f00;
+    background-color: #003366;
     color: white;
     padding: 20px;
     text-align: center;
-    position: relative;
 }
 
-header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-top: 10px;
-}
-
-header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
-header .logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-header img {
-    height: 50px;
-    width: auto;
-}
-
-/* Navigation Menu */
 nav ul {
     list-style: none;
     padding: 0;
@@ -68,17 +33,10 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
-    background-color: #ff6f00;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #e65c00;
+    background-color: #003366;
 }
 
 nav ul li .dropdown-menu {
@@ -86,7 +44,8 @@ nav ul li .dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #ff6f00;
+    background-color: #003366;
+    min-width: 250px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -94,39 +53,56 @@ nav ul li .dropdown-menu {
     z-index: 1000;
 }
 
-nav ul li:hover > .dropdown-menu {
+nav ul li .dropdown-menu li {
     display: block;
+    position: relative;
 }
 
 nav ul li .dropdown-menu li a {
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: white;
     display: block;
     text-decoration: none;
 }
 
-/* Content Section */
-section.content {
+/* Style for nested dropdowns (second level) */
+nav ul li .dropdown-menu .dropdown {
+    position: relative;
+}
+
+nav ul li .dropdown-menu .dropdown > a::after {
+    content: " ▶";
+    font-size: 12px;
+}
+
+nav ul li .dropdown-menu .dropdown-menu {
+    top: 0;
+    left: 100%;
+}
+
+/* Show dropdown on hover */
+nav ul li:hover > .dropdown-menu {
+    display: block;
+}
+
+nav ul li .dropdown-menu li:hover > .dropdown-menu {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #002244;
+}
+
+section {
     padding: 20px;
-    background-color: #ffffff;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allow the section to grow and take remaining space */
 }
 
-section h2 {
-    font-size: 2rem;
-    color: #ff6f00;
-    margin-bottom: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-/* Table Styling */
 table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    background-color: white;
 }
 
 table, th, td {
@@ -134,53 +110,21 @@ table, th, td {
 }
 
 th, td {
-    padding: 12px;
-    text-align: center;
-    font-size: 1.1rem;
+    padding: 8px;
+    text-align: left;
 }
 
 th {
-    background-color: #ff6f00;
+    background-color: #003366;
     color: white;
 }
 
-td {
-    background-color: #fafafa;
-}
-
-/* Link Styling */
-.result-link {
-    color: #ff6f00;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.result-link:hover {
-    color: #e65c00;
-}
-
-/* Footer */
 footer {
     text-align: center;
-    padding: 15px;
-    background-color: #ff6f00;
+    padding: 10px;
+    background-color: #003366;
     color: white;
-    font-size: 1rem;
-    margin-top: 20px;
-}
-
-/* Styling for responsive design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2.5rem;
-    }
-
-    section.content {
-        padding: 15px;
-    }
-
-    table {
-        font-size: 0.9rem;
-    }
+    position: relative;
+    width: 100%;
+    margin-top: 20px; /* Add space between content and footer */
 }
