@@ -95,10 +95,10 @@
                         row.innerHTML = `
                             <td>${index + 1}</td> <!-- Dynamically assigned rank -->
                             <td>${driver.driverName}</td>
-                            <td>${driver.bestLapTime}</td>
+							<td>${driver.school}</td>
+							<td>${driver.ageGroup}</td>
                             <td>${driver.gender}</td>
-                            <td>${driver.school}</td>
-                            <td>${driver.ageGroup}</td>
+							<td>${driver.bestLapTime}</td>
                         `;
                         tableBody.appendChild(row);
                     });

@@ -68,5 +68,89 @@
         "gender": "f",
         "school": "HS Durbanville",
         "ageGroup": "u15"
+    },
+    {
+        "driverName": "Oliver Taylor",
+        "bestLapTime": "18.210",
+        "gender": "m",
+        "school": "HS Stellenberg",
+        "ageGroup": "u15"
+    },
+    {
+        "driverName": "Sophia Walker",
+        "bestLapTime": "18.320",
+        "gender": "f",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
+    },
+    {
+        "driverName": "Ethan White",
+        "bestLapTime": "18.370",
+        "gender": "m",
+        "school": "HS Durbanville",
+        "ageGroup": "u19"
+    },
+    {
+        "driverName": "Grace Lewis",
+        "bestLapTime": "18.245",
+        "gender": "f",
+        "school": "HS Stellenberg",
+        "ageGroup": "u15"
+    },
+    {
+        "driverName": "Lucas Clark",
+        "bestLapTime": "18.050",
+        "gender": "m",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
+    },
+    {
+        "driverName": "Mia Evans",
+        "bestLapTime": "18.180",
+        "gender": "f",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
+    },
+    {
+        "driverName": "Aiden Harris",
+        "bestLapTime": "18.090",
+        "gender": "m",
+        "school": "HS Durbanville",
+        "ageGroup": "u19"
+    },
+    {
+        "driverName": "Chloe Green",
+        "bestLapTime": "18.400",
+        "gender": "f",
+        "school": "HS Stellenberg",
+        "ageGroup": "u19"
+    },
+    {
+        "driverName": "Benjamin King",
+        "bestLapTime": "18.500",
+        "gender": "m",
+        "school": "HS Durbanville",
+        "ageGroup": "u15"
+    },
+    {
+        "driverName": "Zoe Scott",
+        "bestLapTime": "18.210",
+        "gender": "f",
+        "school": "HS Stellenberg",
+        "ageGroup": "u15"
+    },
+    {
+        "driverName": "Maxwell Adams",
+        "bestLapTime": "18.330",
+        "gender": "m",
+        "school": "HS Durbanville",
+        "ageGroup": "u19"
+    },
+    {
+        "driverName": "Eva Roberts",
+        "bestLapTime": "18.260",
+        "gender": "f",
+        "school": "HS Stellenberg",
+        "ageGroup": "u15"
     }
 ]
