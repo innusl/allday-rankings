@@ -8,22 +8,52 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="kart-logo.png" alt="Karting Logo">
+        </div>
         <h1>Welcome to Karting Rankings!</h1>
-        <p></p>
-		<div id="menu-placeholder"></div>	
+        <p>Your ultimate kart racing leaderboard</p>
+        <div id="menu-placeholder"></div>  
     </header>
     
-	
+    <section class="content">
+        <h2>Latest Rankings</h2>
+        <p>Check out the latest karting results from the challenges:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Challenge</th>
+                    <th>View Results</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Challenge 1: Durbanville</td>
+                    <td><a href="durbanville-results.html" target="_blank" class="result-link">View Results</a></td>
+                </tr>
+                <tr>
+                    <td>Challenge 2: Stellenberg</td>
+                    <td><a href="stellenberg-results.html" target="_blank" class="result-link">View Results</a></td>
+                </tr>
+                <tr>
+                    <td>Challenge 3: Speed Trial</td>
+                    <td><a href="speed-trial-results.html" target="_blank" class="result-link">View Results</a></td>
+                </tr>
+                <!-- Add more rows as necessary -->
+            </tbody>
+        </table>
+    </section>
+    
     <footer>
         <p>Created by Karting Rankings Team</p>
     </footer>
-	
-	<script>
-	    fetch('menu.html')
-	        .then(response => response.text())
-	        .then(data => {
-	            document.getElementById('menu-placeholder').innerHTML = data;
-	        });
-	</script>
+    
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu-placeholder').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
