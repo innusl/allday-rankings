@@ -156,28 +156,22 @@ nav ul li .dropdown-menu .dropdown-menu {
     }
 
     nav ul li .dropdown-menu {
+        display: none; /* Hide the dropdown menu initially */
         position: static;
         width: 100%;
-        display: none; /* Hide the dropdown menu initially */
+    }
+
+    nav ul li.active .dropdown-menu {
+        display: block; /* Show dropdown menu when the li has 'active' class */
     }
 
     nav ul li .dropdown-menu li a {
         padding: 10px;
     }
 
-    /* Toggle the visibility of dropdown on click */
-    nav ul li.active .dropdown-menu {
-        display: block; /* Show dropdown menu */
-    }
-
     /* Nested dropdowns */
     nav ul li .dropdown-menu .dropdown.active > .dropdown-menu {
         display: block;
-    }
-
-    footer {
-        padding: 10px;
-        font-size: 0.9em; /* Adjust footer text for smaller screens */
     }
 }
 
