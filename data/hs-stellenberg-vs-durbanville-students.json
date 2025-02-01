@@ -1,0 +1,53 @@
+[
+    {
+        "rank": 1,
+        "driverName": "John Doe",
+        "bestLapTime": "18.347"
+    },
+    {
+        "rank": 2,
+        "driverName": "Jane Smith",
+        "bestLapTime": "18.022"
+    },
+    {
+        "rank": 3,
+        "driverName": "Liam Johnson",
+        "bestLapTime": "18.112"
+    },
+    {
+        "rank": 4,
+        "driverName": "Emma Williams",
+        "bestLapTime": "18.008"
+    },
+    {
+        "rank": 5,
+        "driverName": "Noah Brown",
+        "bestLapTime": "18.435"
+    },
+    {
+        "rank": 6,
+        "driverName": "Olivia Jones",
+        "bestLapTime": "18.123"
+    },
+    {
+        "rank": 7,
+        "driverName": "Mason Davis",
+        "bestLapTime": "18.221"
+    },
+    {
+        "rank": 8,
+        "driverName": "Sophia Miller",
+        "bestLapTime": "18.678"
+    },
+    {
+        "rank": 9,
+        "driverName": "James Garcia",
+        "bestLapTime": "18.456"
+    },
+    {
+        "rank": 10,
+        "driverName": "Isabella Martinez",
+        "bestLapTime": "18.789"
+    }
+]
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parents Rankings - Karting Challenge</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header>
+        <h1>HS Stellenberg vs HS Durbanville - Parents Rankings</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../HS%20Stellenberg%20vs%20HS%20Durbanville%20Students/students.html">Students Rankings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Rankings</h2>
+        <table id="rankingTable">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Driver Name</th>
+                    <th>Best Lap Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rankings will be loaded here -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>Created by Karting Rankings Team</p>
+    </footer>
+
+    <script>
+        // Fetch the parent challenge data
+        fetch('../../data/hs-stellenberg-vs-durbanville-parents.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.querySelector('#rankingTable tbody');
+                data.sort((a, b) => a.rank - b.rank); // Sort by rank
+                data.forEach(driver => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${driver.rank}</td>
+                        <td>${driver.driverName}</td>
+                        <td>${driver.bestLapTime}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error loading the parent data:', error));
+    </script>
+</body>
+</html>
+

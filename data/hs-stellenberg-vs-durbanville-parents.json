@@ -1,0 +1,53 @@
+[
+    {
+        "rank": 1,
+        "driverName": "David Brown",
+        "bestLapTime": "18.987"
+    },
+    {
+        "rank": 2,
+        "driverName": "Linda Wilson",
+        "bestLapTime": "18.345"
+    },
+    {
+        "rank": 3,
+        "driverName": "Michael Clark",
+        "bestLapTime": "18.112"
+    },
+    {
+        "rank": 4,
+        "driverName": "Sarah Miller",
+        "bestLapTime": "18.208"
+    },
+    {
+        "rank": 5,
+        "driverName": "James Taylor",
+        "bestLapTime": "18.556"
+    },
+    {
+        "rank": 6,
+        "driverName": "Patricia Anderson",
+        "bestLapTime": "18.888"
+    },
+    {
+        "rank": 7,
+        "driverName": "John Thomas",
+        "bestLapTime": "18.432"
+    },
+    {
+        "rank": 8,
+        "driverName": "Elizabeth Harris",
+        "bestLapTime": "18.654"
+    },
+    {
+        "rank": 9,
+        "driverName": "Robert King",
+        "bestLapTime": "18.789"
+    },
+    {
+        "rank": 10,
+        "driverName": "Mary Scott",
+        "bestLapTime": "18.456"
+    }
+]
+
