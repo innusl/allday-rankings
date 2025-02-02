@@ -62,34 +62,23 @@
     </footer>
 
 	<script>
-	    //fetch menu
-	    fetch('../../../menu.html')
-	        .then(response => {
-	            if (!response.ok) {
-	                throw new Error('Menu file not found');
-	            }
-	            return response.text();
-	        })
+	    // Load the menu dynamically
+	    fetch('/allday-rankings/menu.html')
+	        .then(response => response.text())
 	        .then(data => {
 	            document.getElementById('menu-placeholder').innerHTML = data;
-	        })
-	        .catch(error => {
-	            console.error('Error loading the menu:', error);
-	            // Optionally, you can provide a fallback or error message here
-	            document.getElementById('menu-placeholder').innerHTML = '<p>Menu could not be loaded.</p>';
+
+	            // Now add event listeners after the menu is loaded
+	            document.querySelectorAll("nav ul li.dropdown > a").forEach(function (item) {
+	                item.addEventListener("click", function (event) {
+	                    if (window.innerWidth <= 768) { // Mobile mode
+	                        event.preventDefault(); // Prevent navigation
+	                        let parentLi = item.parentElement;
+	                        parentLi.classList.toggle("active"); // Toggle 'active' class to show submenu
+	                    }
+	                });
+	            });
 	        });
-	</script>
-	
-	<script>
-	    document.querySelectorAll('nav ul li').forEach(function(item) {
-	        item.addEventListener('click', function(event) {
-	            if (item.classList.contains('dropdown')) {
-	                // Toggle the active class to show/hide the dropdown
-	                item.classList.toggle('active');
-	                event.preventDefault(); // Prevent default link action
-	            }
-	        });
-	    });
 	</script>
 	
 	<script>
