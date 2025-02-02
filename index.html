@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,23 +42,25 @@
         <p>Created by Karting Rankings Team</p>
     </footer>
     
-    <script>
-        fetch('menu.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('menu-placeholder').innerHTML = data;
-            });
-    </script>
 	<script>
-	    document.querySelectorAll('nav ul li').forEach(function(item) {
-	        item.addEventListener('click', function(event) {
-	            if (item.classList.contains('dropdown')) {
-	                // Toggle the active class to show/hide the dropdown
-	                item.classList.toggle('active');
-	                event.preventDefault(); // Prevent default link action
-	            }
+	    // Load the menu dynamically
+	    fetch('/allday-rankings/menu.html')
+	        .then(response => response.text())
+	        .then(data => {
+	            document.getElementById('menu-placeholder').innerHTML = data;
+
+	            // Now add event listeners after the menu is loaded
+	            document.querySelectorAll("nav ul li.dropdown > a").forEach(function (item) {
+	                item.addEventListener("click", function (event) {
+	                    if (window.innerWidth <= 768) { // Mobile mode
+	                        event.preventDefault(); // Prevent navigation
+	                        let parentLi = item.parentElement;
+	                        parentLi.classList.toggle("active"); // Toggle 'active' class to show submenu
+	                    }
+	                });
+	            });
 	        });
-	    });
 	</script>
+
 </body>
 </html>
