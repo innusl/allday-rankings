@@ -161,9 +161,9 @@ nav ul li .dropdown-menu .dropdown-menu {
         width: 100%;
     }
 
-    nav ul li.active .dropdown-menu {
-        display: block; /* Show dropdown menu when the li has 'active' class */
-    }
+	nav ul li.active > .dropdown-menu {
+	    display: block !important;
+	}
 
     nav ul li .dropdown-menu li a {
         padding: 10px;
