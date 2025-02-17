@@ -1,0 +1,38 @@
+{
+  "location": "Extreme Go-Karting",
+  "challenge": "Stellenberg HS vs Durbanville HS",
+  "participants": [
+    {
+      "name": "Michael",
+      "surname": "Johnson",
+      "ageGroup": "16-18",
+      "gender": "M",
+      "team": "Stellenberg High",
+      "bestLapTime": 48.92
+    },
+    {
+      "name": "Sophia",
+      "surname": "Anderson",
+      "ageGroup": "12-15",
+      "gender": "F",
+      "team": "Durbanville High",
+      "bestLapTime": 51.65
+    },
+    {
+      "name": "Daniel",
+      "surname": "Clark",
+      "ageGroup": "12-15",
+      "gender": "M",
+      "team": "Durbanville High",
+      "bestLapTime": 52.88
+    },
+    {
+      "name": "Ava",
+      "surname": "Martinez",
+      "ageGroup": "16-18",
+      "gender": "F",
+      "team": "Stellenberg High",
+      "bestLapTime": 47.92
+    }
+  ]
+}

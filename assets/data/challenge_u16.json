@@ -1,0 +1,38 @@
+{
+  "location": "Extreme Go-Karting",
+  "challenge": "Extreme u16 League",
+  "participants": [
+    {
+      "name": "Ethan",
+      "surname": "Davis",
+      "ageGroup": "12-15",
+      "gender": "Male",
+      "team": "Fairmont High",
+      "bestLapTime": 49.45
+    },
+    {
+      "name": "Mia",
+      "surname": "White",
+      "ageGroup": "16-18",
+      "gender": "Female",
+      "team": "Durbanville High",
+      "bestLapTime": 46.88
+    },
+    {
+      "name": "Noah",
+      "surname": "Harris",
+      "ageGroup": "12-15",
+      "gender": "Male",
+      "team": "Stellenberg High",
+      "bestLapTime": 50.12
+    },
+    {
+      "name": "Charlotte",
+      "surname": "Moore",
+      "ageGroup": "16-18",
+      "gender": "Female",
+      "team": "Fairmont High",
+      "bestLapTime": 47.65
+    }
+  ]
+}

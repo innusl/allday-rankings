@@ -1,0 +1,9 @@
+{
+  "location": "Century Karting",
+  "challenges": [
+    {
+      "name": "Cape Town Veterans League",
+      "file": "challenge_cape_town_veterans.json"
+    }
+  ]
+}

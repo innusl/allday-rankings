@@ -1,0 +1,38 @@
+{
+  "location": "Century Karting",
+  "challenge": "Cape Town Veterans League",
+  "participants": [
+    {
+      "name": "John",
+      "surname": "Doe",
+      "ageGroup": "12-15",
+      "gender": "Male",
+      "team": "Durbanville High",
+      "bestLapTime": 52.34
+    },
+    {
+      "name": "Emma",
+      "surname": "Smith",
+      "ageGroup": "16-18",
+      "gender": "Female",
+      "team": "Stellenberg High",
+      "bestLapTime": 50.21
+    },
+    {
+      "name": "Liam",
+      "surname": "Brown",
+      "ageGroup": "12-15",
+      "gender": "Male",
+      "team": "Fairmont High",
+      "bestLapTime": 53.89
+    },
+    {
+      "name": "Olivia",
+      "surname": "Williams",
+      "ageGroup": "16-18",
+      "gender": "Female",
+      "team": "Durbanville High",
+      "bestLapTime": 49.76
+    }
+  ]
+}

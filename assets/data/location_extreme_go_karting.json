@@ -1,0 +1,17 @@
+{
+  "location": "Extreme Go-Karting",
+  "challenges": [
+    {
+      "name": "Stellenberg HS vs Durbanville HS",
+      "file": "challenge_stellenberg_vs_durbanville.json"
+    },
+    {
+      "name": "Extreme u16 League",
+      "file": "challenge_u16.json"
+    },
+    {
+      "name": "Extreme u19 League",
+      "file": "challenge_u19.json"
+    }
+  ]
+}
