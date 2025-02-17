@@ -5,34 +5,34 @@
     {
       "name": "Michael",
       "surname": "Johnson",
-      "ageGroup": "16-18",
+      "ageGroup": "u19",
       "gender": "M",
       "team": "Stellenberg High",
-      "bestLapTime": 48.92
+      "bestLapTime": 19.923
     },
     {
       "name": "Sophia",
       "surname": "Anderson",
-      "ageGroup": "12-15",
+      "ageGroup": "u16",
       "gender": "F",
       "team": "Durbanville High",
-      "bestLapTime": 51.65
+      "bestLapTime": 21.657
     },
     {
       "name": "Daniel",
       "surname": "Clark",
-      "ageGroup": "12-15",
+      "ageGroup": "u16",
       "gender": "M",
       "team": "Durbanville High",
-      "bestLapTime": 52.88
+      "bestLapTime": 17.885
     },
     {
       "name": "Ava",
       "surname": "Martinez",
-      "ageGroup": "16-18",
+      "ageGroup": "u19",
       "gender": "F",
       "team": "Stellenberg High",
-      "bestLapTime": 47.92
+      "bestLapTime": 18.492
     }
   ]
 }
