@@ -1,13 +1,13 @@
 {
-  "location": "Extreme Go-Karting",
-  "challenge": "Stellenberg HS vs Durbanville HS",
+  "location": "Max Karting",
+  "challenge": "Kings HS vs Knights HS",
   "participants": [
     {
       "name": "Michael",
       "surname": "Johnson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.923
     },
     {
@@ -15,7 +15,7 @@
       "surname": "Anderson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.657
     },
     {
@@ -23,7 +23,7 @@
       "surname": "Clark",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 17.885
     },
     {
@@ -31,7 +31,7 @@
       "surname": "Martinez",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.492
     },
     {
@@ -39,7 +39,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.883
     },
     {
@@ -47,7 +47,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.131
     },
     {
@@ -55,7 +55,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.843
     },
     {
@@ -63,7 +63,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.557
     },
     {
@@ -71,7 +71,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.998
     },
     {
@@ -79,7 +79,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.782
     },
     {
@@ -87,7 +87,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.885
     },
     {
@@ -95,7 +95,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.32
     },
     {
@@ -103,7 +103,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.055
     },
     {
@@ -111,7 +111,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.981
     },
     {
@@ -119,7 +119,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.811
     },
     {
@@ -127,7 +127,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.03
     },
     {
@@ -135,7 +135,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.882
     },
     {
@@ -143,7 +143,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.697
     },
     {
@@ -151,7 +151,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.551
     },
     {
@@ -159,7 +159,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.699
     },
     {
@@ -167,7 +167,7 @@
       "surname": "Thompson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.348
     },
     {
@@ -175,7 +175,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.024
     },
     {
@@ -183,7 +183,7 @@
       "surname": "Thompson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.294
     },
     {
@@ -191,7 +191,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.309
     },
     {
@@ -199,7 +199,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.572
     },
     {
@@ -207,7 +207,7 @@
       "surname": "Smith",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.04
     },
     {
@@ -215,7 +215,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.904
     },
     {
@@ -223,7 +223,7 @@
       "surname": "Smith",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.23
     },
     {
@@ -231,7 +231,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.061
     },
     {
@@ -239,7 +239,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.596
     },
     {
@@ -247,7 +247,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.146
     },
     {
@@ -255,7 +255,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.304
     },
     {
@@ -263,7 +263,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.727
     },
     {
@@ -271,7 +271,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.229
     },
     {
@@ -279,7 +279,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.515
     },
     {
@@ -287,7 +287,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.049
     },
     {
@@ -295,7 +295,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.313
     },
     {
@@ -303,7 +303,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.754
     },
     {
@@ -311,7 +311,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.699
     },
     {
@@ -319,7 +319,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.198
     },
     {
@@ -327,7 +327,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.611
     },
     {
@@ -335,7 +335,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.816
     },
     {
@@ -343,7 +343,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.706
     },
     {
@@ -351,7 +351,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.881
     },
     {
@@ -359,7 +359,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.564
     },
     {
@@ -367,7 +367,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.111
     },
     {
@@ -375,7 +375,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.118
     },
     {
@@ -383,7 +383,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.37
     },
     {
@@ -391,7 +391,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.73
     },
     {
@@ -399,7 +399,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 17.97
     },
     {
@@ -407,7 +407,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.513
     },
     {
@@ -415,7 +415,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.065
     },
     {
@@ -423,7 +423,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.787
     },
     {
@@ -431,7 +431,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.535
     },
     {
@@ -439,7 +439,7 @@
       "surname": "Taylor",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.158
     },
     {
@@ -447,7 +447,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.256
     },
     {
@@ -455,7 +455,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.325
     },
     {
@@ -463,7 +463,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.822
     },
     {
@@ -471,7 +471,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.129
     },
     {
@@ -479,7 +479,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.284
     },
     {
@@ -487,7 +487,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.114
     },
     {
@@ -495,7 +495,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.996
     },
     {
@@ -503,7 +503,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.802
     },
     {
@@ -511,7 +511,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.458
     },
     {
@@ -519,7 +519,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.489
     },
     {
@@ -527,7 +527,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.757
     },
     {
@@ -535,7 +535,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.199
     },
     {
@@ -543,7 +543,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.64
     },
     {
@@ -551,7 +551,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.483
     },
     {
@@ -559,7 +559,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.099
     },
     {
@@ -567,7 +567,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.182
     },
     {
@@ -575,7 +575,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.633
     },
     {
@@ -583,7 +583,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.535
     },
     {
@@ -591,7 +591,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.043
     },
     {
@@ -599,7 +599,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.531
     },
     {
@@ -607,7 +607,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.205
     },
     {
@@ -615,7 +615,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.427
     },
     {
@@ -623,7 +623,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.283
     },
     {
@@ -631,7 +631,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.355
     },
     {
@@ -639,7 +639,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.465
     },
     {
@@ -647,7 +647,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.517
     },
     {
@@ -655,7 +655,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.794
     },
     {
@@ -663,7 +663,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.664
     },
     {
@@ -671,7 +671,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.099
     },
     {
@@ -679,7 +679,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.167
     },
     {
@@ -687,7 +687,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.976
     },
     {
@@ -695,7 +695,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.488
     },
     {
@@ -703,7 +703,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.609
     },
     {
@@ -711,7 +711,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.97
     },
     {
@@ -719,7 +719,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.972
     },
     {
@@ -727,7 +727,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.251
     },
     {
@@ -735,7 +735,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.691
     },
     {
@@ -743,7 +743,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.519
     },
     {
@@ -751,7 +751,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.166
     },
     {
@@ -759,7 +759,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.489
     },
     {
@@ -767,7 +767,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.743
     },
     {
@@ -775,7 +775,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.608
     },
     {
@@ -783,7 +783,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.065
     },
     {
@@ -791,7 +791,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.309
     },
     {
@@ -799,7 +799,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.041
     },
     {
@@ -807,7 +807,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.385
     },
     {
@@ -815,7 +815,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.209
     },
     {
@@ -823,7 +823,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.356
     },
     {
@@ -831,7 +831,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.983
     },
     {
@@ -839,7 +839,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.858
     },
     {
@@ -847,7 +847,7 @@
       "surname": "Smith",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.676
     },
     {
@@ -855,7 +855,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.225
     },
     {
@@ -863,7 +863,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.781
     },
     {
@@ -871,7 +871,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.016
     },
     {
@@ -879,7 +879,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.722
     },
     {
@@ -887,7 +887,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.463
     },
     {
@@ -895,7 +895,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.269
     },
     {
@@ -903,7 +903,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.938
     },
     {
@@ -911,7 +911,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.963
     },
     {
@@ -919,7 +919,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.012
     },
     {
@@ -927,7 +927,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.35
     },
     {
@@ -935,7 +935,7 @@
       "surname": "Thompson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.419
     },
     {
@@ -943,7 +943,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.003
     },
     {
@@ -951,7 +951,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.089
     },
     {
@@ -959,7 +959,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.661
     },
     {
@@ -967,7 +967,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.623
     },
     {
@@ -975,7 +975,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.457
     },
     {
@@ -983,7 +983,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.868
     },
     {
@@ -991,7 +991,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.2
     },
     {
@@ -999,7 +999,7 @@
       "surname": "Taylor",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.083
     },
     {
@@ -1007,7 +1007,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.171
     },
     {
@@ -1015,7 +1015,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.634
     },
     {
@@ -1023,7 +1023,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.531
     },
     {
@@ -1031,7 +1031,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.871
     },
     {
@@ -1039,7 +1039,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.013
     },
     {
@@ -1047,7 +1047,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.709
     },
     {
@@ -1055,7 +1055,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.012
     },
     {
@@ -1063,7 +1063,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.243
     },
     {
@@ -1071,7 +1071,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.334
     },
     {
@@ -1079,7 +1079,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.461
     },
     {
@@ -1087,7 +1087,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.337
     },
     {
@@ -1095,7 +1095,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.824
     },
     {
@@ -1103,7 +1103,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.862
     },
     {
@@ -1111,7 +1111,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.388
     },
     {
@@ -1119,7 +1119,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.607
     },
     {
@@ -1127,7 +1127,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.552
     },
     {
@@ -1135,7 +1135,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.828
     },
     {
@@ -1143,7 +1143,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.706
     },
     {
@@ -1151,7 +1151,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.371
     },
     {
@@ -1159,7 +1159,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.796
     },
     {
@@ -1167,7 +1167,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.957
     },
     {
@@ -1175,7 +1175,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.29
     },
     {
@@ -1183,7 +1183,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.314
     },
     {
@@ -1191,7 +1191,7 @@
       "surname": "Thompson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 17.96
     },
     {
@@ -1199,7 +1199,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.276
     },
     {
@@ -1207,7 +1207,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.426
     },
     {
@@ -1215,7 +1215,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.567
     },
     {
@@ -1223,7 +1223,7 @@
       "surname": "Taylor",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.52
     },
     {
@@ -1231,7 +1231,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.238
     },
     {
@@ -1239,7 +1239,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.299
     },
     {
@@ -1247,7 +1247,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.204
     },
     {
@@ -1255,7 +1255,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.277
     },
     {
@@ -1263,7 +1263,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.153
     },
     {
@@ -1271,7 +1271,7 @@
       "surname": "Brown",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.202
     },
     {
@@ -1279,7 +1279,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.78
     },
     {
@@ -1287,7 +1287,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.528
     },
     {
@@ -1295,7 +1295,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.696
     },
     {
@@ -1303,7 +1303,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.837
     },
     {
@@ -1311,7 +1311,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.772
     },
     {
@@ -1319,7 +1319,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.118
     },
     {
@@ -1327,7 +1327,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.716
     },
     {
@@ -1335,7 +1335,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.803
     },
     {
@@ -1343,7 +1343,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.736
     },
     {
@@ -1351,7 +1351,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.336
     },
     {
@@ -1359,7 +1359,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.445
     },
     {
@@ -1367,7 +1367,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.742
     },
     {
@@ -1375,7 +1375,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.04
     },
     {
@@ -1383,7 +1383,7 @@
       "surname": "White",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.773
     },
     {
@@ -1391,7 +1391,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.694
     },
     {
@@ -1399,7 +1399,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.197
     },
     {
@@ -1407,7 +1407,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.745
     },
     {
@@ -1415,7 +1415,7 @@
       "surname": "Taylor",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.78
     },
     {
@@ -1423,7 +1423,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.664
     },
     {
@@ -1431,7 +1431,7 @@
       "surname": "Thompson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.027
     },
     {
@@ -1439,7 +1439,7 @@
       "surname": "Taylor",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.374
     },
     {
@@ -1447,7 +1447,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 20.577
     },
     {
@@ -1455,7 +1455,7 @@
       "surname": "Moore",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.181
     },
     {
@@ -1463,7 +1463,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.717
     },
     {
@@ -1471,7 +1471,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.709
     },
     {
@@ -1479,7 +1479,7 @@
       "surname": "Thompson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 17.958
     },
     {
@@ -1487,7 +1487,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.105
     },
     {
@@ -1495,7 +1495,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.784
     },
     {
@@ -1503,7 +1503,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.232
     },
     {
@@ -1511,7 +1511,7 @@
       "surname": "Harris",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.867
     },
     {
@@ -1519,7 +1519,7 @@
       "surname": "Smith",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.373
     },
     {
@@ -1527,7 +1527,7 @@
       "surname": "Lee",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.722
     },
     {
@@ -1535,7 +1535,7 @@
       "surname": "Harris",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.204
     },
     {
@@ -1543,7 +1543,7 @@
       "surname": "Thompson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.977
     },
     {
@@ -1551,7 +1551,7 @@
       "surname": "Brown",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 22.779
     },
     {
@@ -1559,7 +1559,7 @@
       "surname": "Lee",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 18.281
     },
     {
@@ -1567,7 +1567,7 @@
       "surname": "Smith",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.031
     },
     {
@@ -1575,7 +1575,7 @@
       "surname": "Wilson",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.875
     },
     {
@@ -1583,7 +1583,7 @@
       "surname": "Martin",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 20.961
     },
     {
@@ -1591,7 +1591,7 @@
       "surname": "Martin",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 21.744
     },
     {
@@ -1599,7 +1599,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 21.979
     },
     {
@@ -1607,7 +1607,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "M",
-      "team": "Durbanville High",
+      "team": "Knights HS",
       "bestLapTime": 19.395
     },
     {
@@ -1615,7 +1615,7 @@
       "surname": "Moore",
       "ageGroup": "u16",
       "gender": "M",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 19.042
     },
     {
@@ -1623,7 +1623,7 @@
       "surname": "White",
       "ageGroup": "u16",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 18.467
     },
     {
@@ -1631,7 +1631,7 @@
       "surname": "Wilson",
       "ageGroup": "u19",
       "gender": "F",
-      "team": "Stellenberg High",
+      "team": "Kings HS",
       "bestLapTime": 22.08
     }
   ]
