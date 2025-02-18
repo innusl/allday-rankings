@@ -1,11 +1,11 @@
 {
   "locations": [
     {
-      "name": "Century Karting",
+      "name": "Cape Karts",
       "file": "location_century_karting.json"
     },
     {
-      "name": "Extreme Go-Karting",
+      "name": "Max Karting",
       "file": "location_extreme_go_karting.json"
     }
   ]
