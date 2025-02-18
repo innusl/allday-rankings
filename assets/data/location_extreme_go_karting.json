@@ -1,8 +1,8 @@
 {
-  "location": "Extreme Go-Karting",
+  "location": "Max Karting",
   "challenges": [
     {
-      "name": "Stellenberg HS vs Durbanville HS",
+      "name": "Kings HS vs Knights HS",
       "file": "challenge_stellenberg_vs_durbanville.json"
     },
     {
