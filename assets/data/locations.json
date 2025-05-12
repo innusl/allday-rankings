@@ -1,12 +1,6 @@
 {
-  "locations": [
-    {
-      "name": "Century Karting",
-      "file": "location_century_karting.json"
-    },
-    {
-      "name": "Extreme Go-Karting",
-      "file": "location_extreme_go_karting.json"
-    }
-  ]
+  "locations" : [ {
+    "file" : "location_extreme_go_karting_1.json",
+    "name" : "Extreme Go Karting"
+  } ]
 }
