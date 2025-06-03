@@ -2,28 +2,28 @@
   "challenge" : "Stellies Go Fast",
   "location" : "Extreme Go Karting",
   "participants" : [ {
-    "firstname" : "Dewald",
+    "name" : "Dewald",
     "gender" : "M",
     "surname" : "Leuvennink",
     "bestLapTime" : "23.194",
     "ageGroup" : "u19",
     "team" : "Stellenberg HS"
   }, {
-    "firstname" : "Ruan",
+    "name" : "Ruan",
     "gender" : "M",
     "surname" : "Leuvennink",
     "bestLapTime" : "24.028",
     "ageGroup" : "u15",
     "team" : "Stellenberg HS"
   }, {
-    "firstname" : "Luke",
+    "name" : "Luke",
     "gender" : "M",
     "surname" : "Smith",
     "bestLapTime" : "28.367",
     "ageGroup" : "u19",
     "team" : "Stellenberg HS"
   }, {
-    "firstname" : "Emma",
+    "name" : "Emma",
     "gender" : "F",
     "surname" : "Smith",
     "bestLapTime" : "28.771",
