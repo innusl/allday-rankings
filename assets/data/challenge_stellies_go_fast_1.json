@@ -5,28 +5,28 @@
     "name" : "Dewald",
     "gender" : "M",
     "surname" : "Leuvennink",
-    "bestLapTime" : "23.194",
+    "bestLapTime" : 23.194,
     "ageGroup" : "u19",
     "team" : "Stellenberg HS"
   }, {
     "name" : "Ruan",
     "gender" : "M",
     "surname" : "Leuvennink",
-    "bestLapTime" : "24.028",
+    "bestLapTime" : 24.028,
     "ageGroup" : "u15",
     "team" : "Stellenberg HS"
   }, {
     "name" : "Luke",
     "gender" : "M",
     "surname" : "Smith",
-    "bestLapTime" : "28.367",
+    "bestLapTime" : 28.367,
     "ageGroup" : "u19",
     "team" : "Stellenberg HS"
   }, {
     "name" : "Emma",
     "gender" : "F",
     "surname" : "Smith",
-    "bestLapTime" : "28.771",
+    "bestLapTime" : 28.771,
     "ageGroup" : "u15",
     "team" : "Stellenberg HS"
   } ]
